@@ -1,0 +1,29 @@
+[package]
+version = "1.0.0"
+license = "Apache-2.0"
+name = "xolborgames/profileservice"
+description = """
+Fork of MadStudio's ProfileService for Xolbor.
+"""
+
+realm = "server"
+exclude = [
+    ".github",
+    ".gitignore",
+
+    "docs",
+    "Examples",
+
+    "aftman.toml",
+    "example.project.json",
+    "mkdocs.yml",
+
+    "ProfileTest.server.lua"
+]
+include = [
+    "ProfileService.lua"
+]
+
+registry = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
