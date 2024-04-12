@@ -6,7 +6,7 @@ description = """
 Fork of MadStudio's ProfileService for Xolbor.
 """
 
-realm = "server"
+realm = "shared"
 exclude = [
     ".github",
     ".gitignore",
